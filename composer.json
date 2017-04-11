@@ -1,0 +1,11 @@
+{
+    "name": "page/page",
+    "type" : "framework",
+    "homepage" : "http://github.com/h3rb/page",
+    "keywords" : ["page","mvc","framework"],
+    "license" : "BSD",
+    "description": "Page: the ultra-minimalist PHP framework",
+    "require": {
+        "php": ">= 5.3.3"
+    }
+}
