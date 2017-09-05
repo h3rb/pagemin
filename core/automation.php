@@ -42,11 +42,7 @@
  } catch (Exception $e) { plog($e); }
 
  plog('$auth_database: '.vars($auth_database));
-
- global $auth_model;    $auth_model=new Auth($auth_database);
- global $session_model; $session_model=new Session($auth_database);
- global $profile_model; $profile_model=new Profile($auth_database);
-
+  
  global $auth;          $auth=NULL;
  global $session;       $session=NULL;
  global $user;          $user=NULL;
