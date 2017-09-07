@@ -8,3 +8,5 @@ You'll need a schema, or you can create your own based on the conventions set fo
 Pagemin comes without an authentication system, though you can view core/Auth.php for where you would add such logic.  It provides support for models, databases, and the Page object.  It is from this minimal starting place that you can begin to build out an application that integrates PHP with whatever front-end world you want to create (Angular, REACT, jQuery, etc.)
 
 It also doesn't have all of the sample application cruft from the Page repo.   A nice to place to start, unless you are building an API, in which case you may wish to take a look at http://github.com/h3rb/papi
+
+What makes Pagemin particularly useful is the ability to use core/automation.php to quickly attach to databases and perform processing on them.  You can change the default "ID" to "id" if that's appropriate to your system and configuration by editing files in core/PDO/*.php
